@@ -343,7 +343,8 @@ HOST_EFL_CONF_OPTS += \
 	-Dv4l2=false \
 	-Dvnc-server=false \
 	-Dx11=false \
-	-Dxinput22=false
+	-Dxinput22=false \
+	-Dexactness=false
 
 # List of modular image/vector loaders to disable in efl
 HOST_EFL_EVAS_LOADERS_DISABLER = avif bmp dds eet generic gst heif ico json \
